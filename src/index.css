@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .text_24 {
+    @apply 3xl:text-[24px] 3xl:leading-[28.8px] 2xl:text-[18px] 2xl:leading-[21.6px] xl:text-[16.2px] xl:leading-[19.4px] lg:text-[12.7px] lg:leading-[15.3px] md:text-[9.6px] md:leading-[11.5px] text-[24px] leading-[28.8px];
+  }
+  .text_20 {
+    @apply 3xl:text-[20px] 2xl:text-[15px] xl:text-[13.54px] lg:text-[10.66px] md:text-[8px] text-[20px];
+  }
+  .text_16 {
+    @apply 3xl:text-[16px] 3xl:leading-[19.2px] 2xl:text-[12px] 2xl:leading-[14.4px]  xl:text-[10.8px] xl:leading-[13px]   lg:text-[8.5px] lg:leading-[10.2px]  md:text-[6.4px] md:leading-[7.68px];
+  }
+  .rounded_8px {
+    @apply 3xl:rounded-[8px] 2xl:rounded-[6px] xl:rounded-[5.33px] lg:rounded-[4.26px] md:rounded-[3.2px] rounded-lg;
+  }
+}
